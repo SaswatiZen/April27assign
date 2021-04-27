@@ -1,0 +1,22 @@
+create a Todo App using Redux . Means you dont have to pass props any more as all 
+state values will be in redux. you just need to use dispatch and useSelector to change and access the values.
+
+2) create a Forum Application. 
+YOU will have Forum component.The forum is the container component.
+You will have FOrumForm Component which will have a textarea to enter the text, a select button where we will show user1,user2,user3 which are users.on clicking submit, you should save the post in local storage. you should store current time when the post is done, the user name and the forum topic. 
+
+when the topic is added you will show the topic along with which user posted and the date of posting. 
+
+Next to every topic, you will have a delete button. Note: WHen you click on delete, you will get a confirm box(read this https://www.w3schools.com/jsref/met_win_confirm.asp)
+if you click yes, then it will delete the topic. if you select no, it wont delete the topic. 
+
+Create a button called delete5mins before topic. if you click button, it will delete all topics that were created 5 mins before. ex: if time is 10 am, then it will create all topics that were created before 9:55 am.
+
+NOte: All form topics should be show in a ForumList Component which will again have one more child called called ForumTopic which will show only one topic. 
+
+Inside the Forum Component , keep the comment component you created yesterday in the exam.
+look at the image for reference. 
+
+
+This is assignment of April 15.
+Keep it as it is but this time you have to use redux properly with actions to do this. so u dont have to pass any props to any child compoent.
